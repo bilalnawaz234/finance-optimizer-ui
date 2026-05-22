@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@theme {
+  /* This configures your custom styling parameters natively for v4 */
+  --font-sans: 'Inter', system-ui, sans-serif;
+}
+
+/* Explicitly tell Tailwind v4 where to scan your React classes */
+@source "../index.html";
+@source "./**/*.{js,ts,jsx,tsx}";
